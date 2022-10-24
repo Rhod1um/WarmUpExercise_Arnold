@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boxes</title>
+    <link rel="stylesheet" href="boxes.css"> <!--husk dog at css filen skal være under static mens html
+     er under templates-->
+</head>
+<body>
+    <div id="container">
+        <header> <!-- header er en boks, alt er bokse -->
+            header
+            <nav>nav</nav>
+        </header>
+
+            <section id="section-left"> <!-- section box fylder kun det teksten fylder by default
+             header box fylder den box ud den ligger i, horisontalt-->
+                section left
+                <header id="section-left-header">
+                    header
+                </header>
+                <header id="section-left-article">
+                    article
+                    <header id="section-left-article-subheader">
+                        subheader
+                    </header>
+                    <section id="section-left-article-venstre-section">
+                        section 1
+                    </section>
+                    <section id="section-left-article-midte-section">
+                        section 2
+                    </section>
+                </header>
+            </section>
+
+        <section id="section-right">
+            section right
+        </section>
+    </div>
+</body>
+</html>

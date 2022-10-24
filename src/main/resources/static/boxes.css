@@ -1,0 +1,56 @@
+body{background-color: rebeccapurple; text-align: center} /*text-align i body centrere al text i bokse men
+ikke boksene*/
+/* *{border: solid 2px} - sætter alle ting med border. også de unsynlige*/
+#container{margin: 0 auto;
+    width: 1000px}
+header{background-color: green;
+    border: solid 2px white;
+    padding-top: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px} /*margin er uden for boxen og padding er inden for*/
+nav{background-color: white;
+    border: solid 2px grey}
+section{border: solid 2px black;
+    display: inline-block;  
+    height: 500px;
+    background-color: crimson} /*float gør at elementerne lægger sig ved siden af hinanden frem for oven på hinanden
+for boxed og ikke inline elementer
+her rykkes de til venstre, så alt efter section er til højre for section fordi section er til venstre?*/
+#section-left{width: 500px}
+#section-right{width: 300px;
+    margin-top: 0px} /*fordi border er 2 px skal der trækkes 8 px fra her så det passer med de 1000px + 2px x4*/
+#section-left-header{border: solid 2px black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: white}
+#section-left-article{border: solid 2px white;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    height: 300px;
+    background-color: darkcyan}
+#section-left-article-subheader{border: solid 2px white;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: deeppink}
+#section-left-article-venstre-section{border: solid 2px black;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 10px;
+    height: 20px;
+    display: inline-block;
+    background-color: white}
+#section-left-article-midte-section{border: solid 2px black;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 10px;
+    height: 20px;
+    background-color: white}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arnoldside</title>
+    <link rel="stylesheet" href="style.css"> <!-- fordi det ligger direkte i static er der ikke en path -->
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+</head>
+<body>
+  <div id="whole-site"> <!-- div er en usynlig beholder. gives attribut så css kan laves på
+   de specifikke class elementer der hedder whole-site-->
+      <h1>Arnold</h1>
+      <p>Do you think I am skillful?</p>
+      <p>Lorem ipsum</p>
+      <a href="https://yes.com">YES</a> | <!-- | giver streg imellem yes og no. ellers står de tæt sammen
+        pga ingen mellemrum-->
+      <a href="https://.no.com">NO</a>
+      <div id="arnold">
+            <p><a href="https://arnold.com"><img src="terminator.jpg" alt="arnold"></a></p>
+            <!-- ingen path før billedet da det ligger under static-->
+      </div> <!--  gifs kan sættes ind som billeder bare med .gif-->
+  </div>
+<!--man kan neste html. her er image inde i link inde i paragraf. Betyder at
+ man kommer ind på arnolds hjemmeside når man trykker på linket-->
+</body>
+</html>

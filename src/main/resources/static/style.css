@@ -1,0 +1,20 @@
+body {background-color: aqua; color: darkslategrey; font-family: "Serif"}
+/*font-family er at ændre font-type, fx times new roman. det er browseren der bestemmer om den skrifttype kan
+læses og ellers bliver det browserens default
+font familien dækker over flere fonte, fx Serif er fonte med fødder
+fonte med fødder bruges i bøger fordi det er nemmere at læse mens fonte uden fødder ofte
+bruges på nettet fordi det er grafisk pænere*/
+h1 {background-color: antiquewhite;
+    color: darkred}
+p {color: indigo;
+    font-size: 45px} /*font-size kan defineres ud fra pixels eller large, larger osv*/
+#whole-site {border: solid 2px #ffffff;
+    width: 1161px; margin: 0 auto; text-align: center} /* 0 er top og bund (ændres ikke), auto er
+siderne (sætter det midten/lige langt fra hver side.  #ffffff er hvis farve. border om div sættes
+til at være 2 pixels bred
+på siden sig inspect element og ændre ting, så kan man se det direkte, fx ændr height og width og så ændr det
+fast i intellij bagefter
+width her blev sat efter hvad han ændrede på siden ved inspect element*/
+
+#arnold {border: solid 2px white; text-align: right}
+
